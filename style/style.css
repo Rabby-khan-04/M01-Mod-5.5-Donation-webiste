@@ -1,6 +1,92 @@
-*{
+/* Global Css */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
+}
+
+.pt-130 {
+    padding-top: 130px;
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.section_title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    color: #121212;
+    margin-bottom: 20px;
+
+}
+
+.section_description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #707070;
+}
+
+.btn_primary {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    display: inline-block;
+    padding: 16px 20px;
+    background-color: #FF5959;
+    color: #fff;
+    border: 1px solid #FF5959;
+    cursor: pointer;
+    transition: 0.4s;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn_primary:hover {
+    color: #FF5959;
+    background-color: transparent;
+}
+
+
+/* Banner Css */
+.banner {
+    padding: 175px 0;
+    background: url(../assets/images/donation0.jpg), linear-gradient(to bottom, #1212126a 0%, #121212 100%);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+}
+
+.banner_content_wraper {
+    max-width: 826px;
+    margin: auto;
+}
+
+.banner_title {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 79px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.banner_description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin: 0 auto 30px;
+    max-width: 690px;
+
 }
