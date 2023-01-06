@@ -57,6 +57,10 @@
     background-color: transparent;
 }
 
+.content_wraper {
+    max-width: 690px;
+    margin: auto;
+}
 
 /* Banner Css */
 .banner {
@@ -89,4 +93,61 @@
     margin: 0 auto 30px;
     max-width: 690px;
 
+}
+
+
+/* Amount Section Css */
+
+.donation_plans_container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 24px;
+
+}
+
+.plan {
+    padding: 55px 25px;
+    border-radius: 4px;
+    transition: 0.4s;
+    transform: translateY(0);
+}
+
+.plan_one {
+    background: rgba(79, 157, 166, 0.1);
+}
+
+.plan_two {
+    background: rgba(255, 89, 89, 0.1);
+}
+
+.plan_three {
+    background: #FFF4D6;
+}
+
+.plan:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 0 7px -1px rgba(0, 0, 0, 0.085);
+}
+
+.plan_icon {
+    height: 50px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.plan_title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #121212;
+    margin-bottom: 16px;
+}
+
+.plan_details {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #707070;
 }
