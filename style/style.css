@@ -32,7 +32,6 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
-    text-align: center;
     color: #707070;
 }
 
@@ -150,4 +149,32 @@
     font-size: 16px;
     line-height: 24px;
     color: #707070;
+}
+
+
+/* Featured Section Css */
+.featured_wraper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fetured_content_row{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.fetured_content_row .section_description{
+    margin-bottom: 30px;
+}
+
+.fetured_img_row{
+    max-width: 500px;
+}
+
+.featured_wraper:not(:last-child){
+    margin-bottom: 100px;
 }
