@@ -36,20 +36,43 @@
     <main>
 
         <!-- Amount Section -->
-        <section class="amount pt-130">
+        <section class="amount pt-130 ">
             <div class="container">
                 <div class="content_wraper text-center">
                     <h2 class="section_title">Donate Today</h2>
                     <p class="section_description">Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli deterruisset. No duo populo animal noluisse, enim</p>
                 </div>
 
-                <div class="donation_form">
+                <div class="donation_form text-center">
                     <form action="#">
-
                         <div class="amounts_wraper">
-                            <i class="fas fa-laugh-beam"></i>
+                        <div class="amount_box_wraper">
+                            <input type="radio" name="amount_box" id="counter_1">
+                            <label class="amount_box" for="counter_1">100tk</label>
+                        </div>
+                        <div class="amount_box_wraper">
+                            <input type="radio" name="amount_box" id="counter_2" checked>
+                            <label class="amount_box" for="counter_2">200tk</label>
+                        </div>
+                        <div class="amount_box_wraper">
+                            <input type="radio" name="amount_box" id="counter_3">
+                            <label class="amount_box" for="counter_3">500tk</label>
+                        </div>
+                        <div class="amount_box_wraper">
+                            <input type="radio" name="amount_box" id="counter_4">
+                            <label class="amount_box" for="counter_4">100tk</label>
+                        </div>
+                        <div class="amount_box_wraper">
+                            <input type="radio" name="amount_box" id="counter_5">
+                            <label class="amount_box" for="counter_5">500tk</label>
+                        </div>
                         </div>
 
+                        <div class="other_amount_wraper">
+                                <input type="tel" id="other_amount" placeholder="Other Amount (Taka)">
+                        </div>
+
+                        <input type="submit" class="btn_primary" value="Donate Now">
                     </form>
                 </div>
             </div>

@@ -96,6 +96,75 @@
 
 
 /* Amount Section Css */
+.donation_form {
+    max-width: 765px;
+    margin: 50px auto 0;
+}
+
+.donation_form form {}
+
+.amounts_wraper {
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+    justify-content: center;
+}
+
+.amount_box {
+    display: inline-block;
+    background: #FAFAFA;
+    border: 1px solid #FAFAFA;
+    border-radius: 5px;
+    padding: 44px 24px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #707070;
+
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+input[type="radio"]:checked~.amount_box {
+    border: 1px solid #FF5959;
+    background: #FFEEEE;
+    color: #FF5959;
+}
+
+.other_amount_wraper {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+#other_amount {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #B3B3B3;
+    border: none;
+    border-bottom: 1px solid #DADADA;
+    outline: none;
+}
+
+#other_amount:focus{
+    border-color: #FF5959;
+}
+
+#other_amount:focus {
+    color: #121212;
+    font-size: 20px;
+}
+
+
+
+/* Donation Plan Section */
 
 .donation_plans_container {
     margin-top: 50px;
